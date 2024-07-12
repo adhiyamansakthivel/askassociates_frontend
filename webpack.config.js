@@ -37,7 +37,7 @@ module.exports = (env) => ({
   ],
   devServer: {
     // host: '0.0.0.0', // Uncomment this, If you want your server to be accessible externally(Mobile etc.)
-    port: 3000, // Port number to listen for requests
+    port: 3001, // Port number to listen for requests
     open: true, // To open the browser after server had been started
     //contentBase: path.join(__dirname, './public'), // where to serve content(static files) from,
     //inline: true, // Inject scripts into the bundle to show live reloading and build messages in the browser console.
@@ -56,11 +56,6 @@ module.exports = (env) => ({
       "Access-Control-Allow-Origin": "*",
       "Access-Control-Allow-Headers":
         "Origin, X-Requested-With, Content-Type, Accept",
-    },
-    performance: {
-      hints: false,
-      maxEntrypointSize: 512000,
-      maxAssetSize: 512000
     },
   },
   devtool: env.NODE_ENV === "production" ? false : "source-map", // How source codes are mapped/shown in the browser
@@ -81,8 +76,6 @@ module.exports = (env) => ({
           filename: "icons/[hash].svg",
         },
       },
-      
-      
       {
         test: /\.(sa|sc|c)ss$/,
         use: [
