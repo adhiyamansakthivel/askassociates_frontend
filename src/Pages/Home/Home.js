@@ -44,7 +44,6 @@ const Home = () => {
     ],
   });
 
-  console.log(apiCarouselList?.data?.data);
   
   return (
     <>
