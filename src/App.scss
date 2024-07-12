@@ -1,0 +1,69 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+@import "aos/dist/aos.css";
+
+@import "glightbox/dist/css/glightbox.min.css";
+@import "glightbox/dist/css/plyr.min.css";
+
+// #top-portfolio-details .portfolio-details .portfolio-details-slider img {
+//   width: 100%;
+//   height: 40rem;
+// }
+#top-portfolio-details section{
+  padding: 0px;
+}
+
+#top-portfolio-details .portfolio-details .portfolio-details-slider img{
+  width: 100%;
+  height: 700px;
+}
+@media (min-height: 400px) and  (max-height: 900px){
+  #top-portfolio-details .portfolio-details .portfolio-details-slider img{
+      height: 250px;
+  }
+
+  .header .logo h1 {
+    font-size: 20px !important;
+  }
+
+  .headerMail{
+    width: 150px;
+    word-break: break-all;
+  }
+}
+
+.footer-info .logo label {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-family: var(--font-primary);
+  color: #f96f59;
+}
+
+.cursor{
+  cursor: pointer;
+}
+
+.flex{
+  display: flex;
+}
+
+.activeCls{
+  color: #f96f59 !important;
+  font-weight: 800;
+}
+
+.whatsappbtn{
+  position: fixed;
+  bottom: 10px;
+  right: 70px;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  z-index: 10;
+}
+
+.hr_Center{
+  margin-left: 1rem !important;
+  margin-right: 1rem !important;
+}
