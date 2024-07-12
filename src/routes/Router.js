@@ -21,11 +21,11 @@ const Router = () => {
   // const line2="Product:"
   // const line3="Product Desc:"
   // const line4="Link:"
-  const msg = encodeURIComponent(window.location.href)
+  const msg = "Hi, Ask Associates!"
 
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/">
         <Header />
         <>
           <Routes>
@@ -46,7 +46,7 @@ const Router = () => {
 
         <a
           className="navbar-brand ms-3 whatsappbtn"
-          href={"https://wa.me/+919047029998/?text=" + msg}
+          href={"https://wa.me/+919842027654/?text=" + msg}
         >
           <button type="button" className="btn btn-success">
             <svg

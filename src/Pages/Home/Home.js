@@ -43,6 +43,9 @@ const Home = () => {
       },
     ],
   });
+
+  console.log(apiCarouselList?.data?.data);
+  
   return (
     <>
     <HelmetComp title={'Ask Associates'} />
