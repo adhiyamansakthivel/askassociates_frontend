@@ -25,7 +25,7 @@ const Router = () => {
 
   return (
     <>
-      <BrowserRouter basename="/">
+      <BrowserRouter>
         <Header />
         <>
           <Routes>
