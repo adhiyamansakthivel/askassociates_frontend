@@ -1,7 +1,7 @@
 import React, { useEffect, Suspense } from "react";
 import { QueryClientProvider, QueryClient } from "@tanstack/react-query";
 import { ToastContainer } from "react-toastify";
-import {  HelmetProvider } from 'react-helmet-async';
+// import {  HelmetProvider } from 'react-helmet-async';
 // import { ReactQueryDevtools } from '@tanstack/react-query/devtools'
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -15,7 +15,7 @@ import Router from "./routes/Router";
 import "swiper/css/bundle";
 import "./App.scss";
 
-const helmetContext = {};
+// const helmetContext = {};
 
 
 const queryClient = new QueryClient({
@@ -52,7 +52,7 @@ const App = () => {
 
   return (
     <>
-      <HelmetProvider context={helmetContext}>
+      {/* <HelmetProvider context={helmetContext}> */}
         <ErrorBoundary>
           <QueryClientProvider client={queryClient}>
             <Suspense fallback={<Spinner />}>
@@ -64,7 +64,7 @@ const App = () => {
             {/* <ReactQueryDevtools position="bottom-right" /> */}
           </QueryClientProvider>
         </ErrorBoundary>
-      </HelmetProvider>
+      {/* </HelmetProvider> */}
     </>
   );
 };

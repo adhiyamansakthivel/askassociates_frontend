@@ -1,6 +1,7 @@
 import { data } from 'isotope-layout';
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
+// import { Helmet } from 'react-helmet-async';
+import {Helmet} from "react-helmet";
 import favicon from '../../assets/images/favicon.ico';
 import logo from '../../assets/images/logo.png';
 
