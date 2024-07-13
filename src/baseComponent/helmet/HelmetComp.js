@@ -22,7 +22,6 @@ export default function HelmetComp({title, data}) {
             <meta name="keywords" content={keywords} />
             <link rel="author" href="Ask Associates" />
             <link rel="canonical" href={url} />
-            <meta name="robots" content="index,follow" />
 
             <link href={favicon} rel="icon"  />
 
