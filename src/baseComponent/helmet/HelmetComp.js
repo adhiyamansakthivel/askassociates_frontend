@@ -24,8 +24,6 @@ export default function HelmetComp({title, data}) {
             <link rel="author" href="Ask Associates" />
             <link rel="canonical" href={url} />
 
-            <link href={favicon} rel="icon"  />
-
             <meta property="og:url" content={url}/>
             <meta property="og:image" content={imageUrl} />
             <meta property="og:description" content={description} />
