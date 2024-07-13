@@ -64,18 +64,7 @@ const Products = () => {
     }
   );
 
-  const [apiBrandList] = useQueries({
-    queries: [
-      {
-        queryKey: ["brandsList"],
-        queryFn: () =>
-          getAPIData("get", APIEndPoints.GetAllBrands_Products.url)
-            .then((res) => res?.data?.data)
-            .catch((err) => err),
-      },
-    ],
-  });
-
+ 
   const currentItems =
     apiProductList.isSuccess && viewList?.length !== 0
       ? viewList?.slice(itemOffset, endOffset)

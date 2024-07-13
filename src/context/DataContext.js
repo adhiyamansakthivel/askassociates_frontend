@@ -14,8 +14,6 @@ export const DataContext = React.createContext({
 });
 
 
-console.log(`business: ${DataContext.PageTitle}`);
-
 
 export const DataProvider = ({ children }) => {
   const [pageTitle, setPageTitle] = React.useState("");
