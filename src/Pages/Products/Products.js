@@ -151,7 +151,7 @@ const Products = () => {
 
   return (
     <>
-      <HelmetComp title={location?.state?.meta_title || 'Product List'} data={location?.state?.data} />
+      <HelmetComp title={location?.state?.data?.name || 'Product List'} data={location?.state?.data} />
       <section id="product" className="portfolio sections-bg">
         <div className="container" data-aos="fade-up">
           <div className="section-header products-header">

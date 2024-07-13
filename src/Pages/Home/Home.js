@@ -47,7 +47,7 @@ const Home = () => {
   
   return (
     <>
-    <HelmetComp title={'Ask Associates'} />
+    <HelmetComp title={'Home'} />
       {<Causal id="top-portfolio-details" CarouselList={apiCarouselList?.data?.data} />}
       <main id="main">
         {/* <Breadcrumbs/> */}

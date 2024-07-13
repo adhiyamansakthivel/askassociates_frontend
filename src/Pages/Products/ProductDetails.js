@@ -84,7 +84,7 @@ const ProductDetails = () => {
   const metaDescription = {
     'description': apiProductDetails?.data?.data?.description,
     'keywords': apiProductDetails?.data?.data?.title + ", " +apiProductDetails?.data?.data?.brand?.name + ", "+ apiProductDetails?.data?.data?.category?.name +", "+apiProductDetails?.data?.data?.subcategory?.name +", " +apiProductDetails?.data?.data?.tags,
-    'imageUrl': apiProductDetails?.data?.data?.images?.[0]?.productImage
+    'imgUrl': apiProductDetails?.data?.data?.images?.[0]?.productImage
   }
 
   return (
