@@ -35,7 +35,7 @@ const Footer = () => {
                   style={{width:'60px', height:'60px'}}          
                   className="cursor"
                 />
-                <span style={{color:"#CD0000"}}>Ask</span>&nbsp;<label style={{color:"white"}}>Associates</label>
+                <span style={{color:"#CD0000"}}>ASK</span>&nbsp;<label style={{color:"white"}}>Associates</label>
             </a>
            <span> Manufacturer | Wholesaler | Trader | Retailer | Distributor</span><br/><br/>
             

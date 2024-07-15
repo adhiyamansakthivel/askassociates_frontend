@@ -221,7 +221,7 @@ const Header = () => {
                 style={{width:'60px', height:'60px'}}          
                 className="cursor"
               />
-              <span style={{color:"#C60101"}}>Ask</span>&nbsp;<label style={{color:"#474646"}}>Associates</label>
+              <span style={{color:"#C60101", fontWeight:"bold"}}>ASK</span>&nbsp;<label style={{color:"#474646"}}>Associates</label>
             </h1>
           </a>
           <nav id="navbar" className="navbar">
