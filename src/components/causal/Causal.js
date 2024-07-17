@@ -70,9 +70,9 @@ const Causal = ({ id, CarouselList }) => {
             <div className="position-relative h-100">
               <div className="slides-1 portfolio-details-slider swiper">
                 <div className="swiper-wrapper align-items-center">
-                <div className="swiper-slide" key={'1-2'}>
-                      <img src={about1} alt="askassociates image" />
-                    </div>
+                   {/* <div className="swiper-slide" key={'1-2'}>
+                          <img src={about1} alt="askassociates image" />
+                        </div>*/}
                   {CarouselList?.length !==0 && CarouselList?.map((item, index) => (
                     <div className="swiper-slide" key={item?.image + index}>
                       <img src={item?.image} alt="Carsoual" />
