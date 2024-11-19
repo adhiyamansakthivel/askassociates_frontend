@@ -48,7 +48,7 @@ module.exports = (env) => ({
     // },// In case 404 responses, root(index.html) file will be served,
     proxy: {
       "/api/**": {
-        target: "https://api.askassociatescbe.com/",
+        target: "https://askassociates-0afd6ba18d55.herokuapp.com/",//
         secure: false,
       },
     },

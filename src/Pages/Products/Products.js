@@ -89,8 +89,8 @@ const Products = () => {
   };
 
   // Invoke when user click to request another page.
-  const handlePageClick = (event) => {
-    const newOffset = (event.selected * itemsPerPage) % viewList?.length;
+  const handlePageClick = (selectedPage) => {
+    const newOffset = (selectedPage.selected * itemsPerPage) % viewList?.length;
     setItemOffset(newOffset);
   };
 
